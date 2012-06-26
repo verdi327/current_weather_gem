@@ -12,7 +12,7 @@ module WeatherApi
       self.condition     = attributes['condition'].first
       self.temperature   = attributes['temp_f'].first
       self.humidity      = attributes['humidity'].first
-      self.icon          = attributes['icon'].first
+      self.icon          = "www.google.com" + attributes['icon'].first
       self.wind_conditon = attributes['wind_condition'].first
     end
 
