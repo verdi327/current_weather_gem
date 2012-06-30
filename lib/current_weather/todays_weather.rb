@@ -2,7 +2,7 @@ require 'nokogiri'
 
 module WeatherApi
   class TodaysWeather
-    attr_accessor :condition, :temperature, :humidity, :icon, :wind_conditon
+    attr_accessor :condition, :temperature, :humidity, :icon, :wind_condition
 
     def self.client
       WeatherApi::Client.new
