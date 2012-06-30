@@ -9,11 +9,11 @@ module WeatherApi
     end
 
     def initialize(attributes)
-      self.condition     = attributes['condition'].first
-      self.temperature   = attributes['temp_f'].first
-      self.humidity      = attributes['humidity'].first
-      self.icon          = "www.google.com" + attributes['icon'].first
-      self.wind_conditon = attributes['wind_condition'].first
+      self.condition      = attributes['condition'].first
+      self.temperature    = attributes['temp_f'].first
+      self.humidity       = attributes['humidity'].first
+      self.icon           = "www.google.com" + attributes['icon'].first
+      self.wind_condition = attributes['wind_condition'].first
     end
 
     def self.current_weather(location)
