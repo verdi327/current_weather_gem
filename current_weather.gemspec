@@ -17,4 +17,5 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency('faraday')
   gem.add_runtime_dependency('nokogiri')
+  gem.add_development_dependency('rspec')
 end

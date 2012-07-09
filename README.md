@@ -1,6 +1,11 @@
 # Weather
 
-TODO: Write a gem description
+A dead freakin' simple weather gem.  No frills or side of guac included.  Use this gem to get the following information:
+* Condition (i.e. 'partly cloudy')
+* Temperature (Fahrenheit only - c'mon this is the USA we don't do the whole metric system thing)
+* Humidity (percentage)
+* Icon (.gif image that corresponds to the condition)
+* Wind Condition (i.e. 'N at 9 mph')
 
 ## Installation
 
@@ -18,7 +23,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Gem has only one class level method to interact with and returns an instance of the TodaysWeather class.
+#### Example Call
+WeatherApi::TodaysWeather.find('Chicago') #=> returns the following attributes
+* condition
+* temperature
+* humidity
+* icon
+* wind_condition
 
 ## Contributing
 
