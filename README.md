@@ -11,7 +11,7 @@ A dead freakin' simple weather gem.  It's bare boned, no frills.  Use this gem t
 
 Add this line to your application's Gemfile:
 
-    gem 'weather'
+    gem 'current_weather'
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install weather
+    $ gem install current_weather
 
 ## Usage
 
