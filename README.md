@@ -1,6 +1,6 @@
 # Weather
 
-A dead freakin' simple weather gem.  No frills or side of guac included.  Use this gem to get the following information:
+A dead freakin' simple weather gem.  It's bare boned, no frills.  Use this gem to get the following information:
 * Condition (i.e. 'partly cloudy')
 * Temperature (Fahrenheit only - c'mon this is the USA we don't do the whole metric system thing)
 * Humidity (percentage)
@@ -25,7 +25,10 @@ Or install it yourself as:
 
 Gem has only one class level method to interact with and returns an instance of the TodaysWeather class.
 #### Example Call
-WeatherApi::TodaysWeather.find('Chicago') #=> returns the following attributes
+
+    WeatherApi::TodaysWeather.find('Chicago')
+
+Returns the following attributes
 * condition
 * temperature
 * humidity
